@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+
+
+
+.logo{
+
+    color: #0088a9;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s ease 0s; 
+    border-bottom: 3px solid white;
+    text-shadow: 1px 2px 1px rgba(0, 136, 169, 0.8);
+    
+}
+
+.logo:hover{
+   
+    transition: all 0.3s ease 0s; 
+}
+
+.logo-p{
+    font-family: 'Montserrat', sans-serif;
+    color: #0088a9;
+}
+
+
+li,a,button{
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf9f1;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30PX 10%;
+    background:rgba(0, 136, 169, 0.1);
+
+
+}
+
+nav-link, li{
+
+    display: inline-block;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+nav-link, a{
+
+transition: all 0.3s ease 0s;
+color: #0088a9;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+na-links , li, a:hover{
+    color: #0088a9;
+}
+
+
+button{
+    padding: 0.1px 20px;
+    color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    background-color: rgba(0, 136, 169, 0.1);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+
+button:hover{
+
+    background-color: rgba(0, 136, 169, 0.3);
+
+ 
+
+}
+
+
+
+.main{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url("main-img.jpg");
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    padding: 100px 0;
+    
+}
+.main-l{
+
+    margin: auto;
+    width: 60%;
+    padding: 10px;   
+    line-height: 3;
+    color: rgba(0, 136, 169, 1);
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+    background-color: rgba(0, 136, 169, 0.1);
+    border-radius: 50px;
+    
+   
+}
+
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 136, 169, 0.3);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+  
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #0088a9;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgba(0, 136, 169, 0.1);
+    color: rgba(0, 136, 169, 1);
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+
+    background-color: rgba(0, 136, 169, 0.3);
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* media */
+
+
+
+  @media only screen and (max-width: 360px) {
+   .main-l{
+  
+         margin-top: -60px;
+   }
+  }
